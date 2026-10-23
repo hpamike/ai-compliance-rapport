@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: interne-chatbot-minimaal-risico
+expected_outcome: |
+  A Dutch Word report that sees ChatGPT as an AI system used by the firm as deployer (not provider), classifies the use as minimal risk (no prohibited or high-risk use; no Art. 50(1) duty for the firm since it does not offer the chatbot to others), makes AI literacy (Art. 4) a concrete measure, and focuses on GDPR (processor agreement, transfers outside the EEA, data minimisation for client files), professional confidentiality, contract on a personal credit card, an internal AI usage policy, and human review of client advice.

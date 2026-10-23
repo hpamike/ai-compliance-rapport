@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: hr-cv-selectie-hoog-risico
+expected_outcome: |
+  A Word report that treats TalentMatch as an AI system, places Flexwerk as deployer (gebruiksverantwoordelijke), classifies it as high risk under Annex III point 4 (recruitment) with the 2 December 2027 deadline, translates Art. 26 duties into measures, flags the automatic rejection under GDPR Art. 22 and the need for a DPIA, covers works council / worker information, bias, and meaningful human oversight, and includes the disclaimer.

@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: callcenter-emotion-prohibited
+expected_outcome: |
+  An English Word report that identifies emotion recognition from voice as an AI system, concludes that emotion recognition of agents at the workplace is prohibited under Art. 5(1)(f) and that steering sales on anxiety or confusion risks Art. 5(1)(a)/(b), recommends stopping or redesigning rather than adding controls, notes the remaining high-risk elements (biometric emotion recognition of customers, worker evaluation under Annex III point 4), works council consent, GDPR, and proposes a less intrusive alternative such as text-based intent analysis with conditions.
