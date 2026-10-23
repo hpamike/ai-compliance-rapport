@@ -14,7 +14,7 @@ Schrijf het rapport in Markdown volgens dit template en zet het om met `scripts/
 **Organisatie:** [naam] · **Datum:** [datum] · **Stand van de wet gecontroleerd op:** [datum zoekcheck]
 **Status toepassing:** [idee / pilot / in gebruik] · **Opgesteld met:** AI-ondersteunde eerste screening
 
-> **Let op: dit is geen juridisch advies.** Dit rapport is met behulp van AI opgesteld als hulpmiddel om zelf een afweging te maken. Het is een eerste screening op basis van de informatie die de organisatie heeft verstrekt. Fouten, onvolledigheden en verouderde informatie zijn mogelijk. Laat de inhoud altijd controleren door een specialist, zoals een jurist of functionaris gegevensbescherming, voordat u er besluiten op baseert. De opstellers aanvaarden geen aansprakelijkheid voor gevolgen van het gebruik van dit rapport. Uitspraken zijn gemarkeerd als [Weten] (bevestigd), [Aannemen] (gebruikt, nog niet bevestigd) of [Niet weten] (informatie ontbreekt).
+> **LET OP: GEEN JURIDISCH ADVIES** Dit rapport is met behulp van AI opgesteld als hulpmiddel om zelf een afweging te maken. Het is een eerste screening op basis van de informatie die de organisatie heeft verstrekt. Fouten, onvolledigheden en verouderde informatie zijn mogelijk. Laat de inhoud altijd controleren door een specialist, zoals een jurist of functionaris gegevensbescherming, voordat u er besluiten op baseert. De opstellers aanvaarden geen aansprakelijkheid voor gevolgen van het gebruik van dit rapport. Uitspraken zijn gemarkeerd als [Weten] (bevestigd), [Aannemen] (gebruikt, nog niet bevestigd) of [Niet weten] (informatie ontbreekt).
 
 ## 1. Samenvatting
 
@@ -129,7 +129,7 @@ Schrijf het rapport in Markdown volgens dit template en zet het om met `scripts/
 **Organisation:** [name] · **Date:** [date] · **Legal status checked on:** [date of search check]
 **Status of application:** [idea / pilot / in use] · **Prepared with:** AI-assisted initial screening
 
-> **Note: this is not legal advice.** This report was prepared with the help of AI as a tool to support your own assessment. It is an initial screening based on the information provided by the organisation. Errors, omissions and outdated information are possible. Always have the content reviewed by a specialist, such as a lawyer or data protection officer, before relying on it. The authors accept no liability for consequences of using this report. Statements are marked [Known] (confirmed), [Assumed] (used but not yet confirmed) or [Unknown] (information missing).
+> **NOTE: NOT LEGAL ADVICE** This report was prepared with the help of AI as a tool to support your own assessment. It is an initial screening based on the information provided by the organisation. Errors, omissions and outdated information are possible. Always have the content reviewed by a specialist, such as a lawyer or data protection officer, before relying on it. The authors accept no liability for consequences of using this report. Statements are marked [Known] (confirmed), [Assumed] (used but not yet confirmed) or [Unknown] (information missing).
 
 ## 1. Summary
 

@@ -61,8 +61,12 @@ Kies één tot drie handvatten die deze organisatie morgen kan gebruiken, en zet
 Schrijf het rapport volgens `assets/rapport-template.md` en zet het om naar Word:
 
 ```bash
-python <skill-map>/scripts/build_docx.py rapport.md rapport.docx
+python <skill-map>/scripts/build_docx.py rapport.md rapport.docx          # Nederlands rapport
+python <skill-map>/scripts/build_docx.py rapport.md rapport.docx --en     # Engels rapport
+python <skill-map>/scripts/build_docx.py rapport.md rapport.docx --footer "<disclaimer in de taal van het rapport>"
 ```
+
+Het script zet het rapport in AI FiT-huisstijl: Calibri, paarse koppen, de disclaimer in een paars kader, het logo met AIFiT.nu in de koptekst, en in de voettekst een korte disclaimer over mogelijke fouten door AI plus het paginanummer. Schrijf je in een andere taal dan Nederlands of Engels, geef dan met `--footer` een vertaalde voettekst mee. Vraagt de gebruiker om een rapport zonder AI FiT-logo, gebruik dan `--neutraal`; de voettekst met de disclaimer blijft altijd staan.
 
 Werkt python-docx niet (`pip install python-docx`), gebruik dan de docx-vaardigheid van de omgeving, of lever het Markdown-bestand en zeg dat erbij. Lever het .docx-bestand aan de gebruiker en geef in de chat een samenvatting van 5–8 regels: classificatie, rol, advies, de drie belangrijkste acties. Sluit af met de disclaimer in één zin: geen juridisch advies maar een hulpmiddel, fouten zijn mogelijk, laat het controleren door een specialist.
 

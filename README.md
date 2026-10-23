@@ -28,7 +28,7 @@ De hoofdstukken heten "Juridische & compliance-overwegingen" en "Ethiek, stakeho
 - **Claude.ai of de Claude-app:** download `ai-compliance-rapport.skill` bij [Releases](../../releases) en upload hem in Claude bij de instellingen voor Skills.
 - **Claude Code:** kopieer de map `ai-compliance-rapport/` naar `~/.claude/skills/`.
 
-Het Word-rapport wordt gemaakt met `scripts/build_docx.py`, dat `python-docx` nodig heeft (`pip install python-docx`).
+Het Word-rapport wordt gemaakt met `scripts/build_docx.py` in AI FiT-huisstijl (logo en AIFiT.nu in de koptekst, een disclaimer over mogelijke fouten door AI in de voettekst). Met `--neutraal` laat je logo en AIFiT.nu weg. Het script heeft `python-docx` nodig (`pip install python-docx`).
 
 ## Gebruik
 
