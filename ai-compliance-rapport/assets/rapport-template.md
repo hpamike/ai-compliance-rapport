@@ -14,7 +14,7 @@ Schrijf het rapport in Markdown volgens dit template en zet het om met `scripts/
 **Organisatie:** [naam] · **Datum:** [datum] · **Stand van de wet gecontroleerd op:** [datum zoekcheck]
 **Status toepassing:** [idee / pilot / in gebruik] · **Opgesteld met:** AI-ondersteunde eerste screening
 
-> Dit rapport is een eerste juridische en ethische screening op basis van de informatie die de organisatie heeft verstrekt. Het is geen juridisch advies. Laat de conclusies toetsen door een jurist of functionaris gegevensbescherming voordat u er besluiten op baseert. Uitspraken zijn gemarkeerd als [Weten] (bevestigd), [Aannemen] (gebruikt, nog niet bevestigd) of [Niet weten] (informatie ontbreekt).
+> **Let op: dit is geen juridisch advies.** Dit rapport is met behulp van AI opgesteld als hulpmiddel om zelf een afweging te maken. Het is een eerste screening op basis van de informatie die de organisatie heeft verstrekt. Fouten, onvolledigheden en verouderde informatie zijn mogelijk. Laat de inhoud altijd controleren door een specialist, zoals een jurist of functionaris gegevensbescherming, voordat u er besluiten op baseert. De opstellers aanvaarden geen aansprakelijkheid voor gevolgen van het gebruik van dit rapport. Uitspraken zijn gemarkeerd als [Weten] (bevestigd), [Aannemen] (gebruikt, nog niet bevestigd) of [Niet weten] (informatie ontbreekt).
 
 ## 1. Samenvatting
 
@@ -96,6 +96,10 @@ Schrijf het rapport in Markdown volgens dit template en zet het om met `scripts/
 
 [Alleen als er rode vlaggen zijn: welk onderdeel, welk alternatief, wat het kost aan waarde, welk nieuw risico.]
 
+## Tot slot
+
+[Sluit de hoofdtekst af met één zin: "Dit rapport is een hulpmiddel en geen juridisch advies; laat het controleren door een specialist voordat u besluit."]
+
 ## Bijlage A. Feitenoverzicht
 
 | Uitspraak | Weten / Aannemen / Niet weten | Bron of wie valideert |
@@ -125,7 +129,7 @@ Schrijf het rapport in Markdown volgens dit template en zet het om met `scripts/
 **Organisation:** [name] · **Date:** [date] · **Legal status checked on:** [date of search check]
 **Status of application:** [idea / pilot / in use] · **Prepared with:** AI-assisted initial screening
 
-> This report is an initial legal and ethical screening based on the information provided by the organisation. It is not legal advice. Have the conclusions reviewed by a lawyer or data protection officer before relying on them. Statements are marked [Known] (confirmed), [Assumed] (used but not yet confirmed) or [Unknown] (information missing).
+> **Note: this is not legal advice.** This report was prepared with the help of AI as a tool to support your own assessment. It is an initial screening based on the information provided by the organisation. Errors, omissions and outdated information are possible. Always have the content reviewed by a specialist, such as a lawyer or data protection officer, before relying on it. The authors accept no liability for consequences of using this report. Statements are marked [Known] (confirmed), [Assumed] (used but not yet confirmed) or [Unknown] (information missing).
 
 ## 1. Summary
 
@@ -165,6 +169,9 @@ Schrijf het rapport in Markdown volgens dit template en zet het om met `scripts/
 | Escalate and stop | | | |
 ### 3.5 Transparency & accountability
 ### 3.6 Redesign options
+
+## Closing
+[One sentence: "This report is a tool, not legal advice; have it reviewed by a specialist before deciding."]
 
 ## Annex A. Fact base
 | Statement | Known / Assumed / Unknown | Source or who validates |

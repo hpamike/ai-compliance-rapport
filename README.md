@@ -2,6 +2,8 @@
 
 Een Claude-skill die een AI-toepassing in een organisatie toetst aan de EU AI-verordening (AI Act), de AVG en andere wetgeving, en de ethiek, stakeholders en het menselijk toezicht beoordeelt. Het resultaat is een kort Word-rapport voor management.
 
+> **Geen juridisch advies.** Een hulpmiddel om zelf een afweging te maken. Fouten zijn mogelijk: laat de uitkomsten altijd controleren door een specialist. / *Not legal advice. A tool to support your own assessment. Errors are possible: always have the results reviewed by a specialist.*
+
 *English below.*
 
 ## Wat de skill doet
@@ -32,9 +34,16 @@ Het Word-rapport wordt gemaakt met `scripts/build_docx.py`, dat `python-docx` no
 
 Vraag bijvoorbeeld: *"Toets onze nieuwe HR-tool aan de AI Act en maak een rapport in Word"*, of geef de code of documentatie van een bestaande pilot en vraag om een analyse.
 
-## Belangrijk
+## Belangrijk: geen juridisch advies
 
-Het rapport is een **eerste juridische en ethische screening, geen juridisch advies**. Laat conclusies toetsen door een jurist of functionaris gegevensbescherming voordat u er besluiten op baseert. Wetgeving en de uitleg ervan veranderen; de skill vermeldt in elk rapport tot welke datum de stand van de wet is gecontroleerd.
+Deze skill en de rapporten die hij maakt zijn **geen juridisch advies**. Ze zijn een hulpmiddel om zelf een afweging te maken over een AI-toepassing.
+
+- De rapporten worden met AI gemaakt. **Fouten, onvolledigheden en verouderde informatie zijn mogelijk.**
+- **Laat de uitkomsten altijd controleren door een specialist**, zoals een jurist of functionaris gegevensbescherming, voordat u er besluiten op baseert.
+- Wetgeving en de uitleg ervan veranderen. Elk rapport vermeldt tot welke datum de stand van de wet is gecontroleerd.
+- De skill wordt geleverd zoals hij is, zonder garantie. De makers aanvaarden geen aansprakelijkheid voor gevolgen van het gebruik ervan (zie ook artikel 5 van de [licentie](LICENSE)).
+
+Elk rapport bevat deze boodschap bovenaan en in de slotzin, en de skill herhaalt hem bij het opleveren.
 
 ## Testcases
 
@@ -56,6 +65,6 @@ It works like a legal adviser: it checks the current state of the law (updated t
 
 **Language:** Dutch or English by default; the skill translates to the user's language.
 
-**Disclaimer:** the report is an initial legal and ethical screening, not legal advice.
+**Not legal advice:** the skill and its reports are a tool to support your own assessment, not legal advice. Reports are generated with AI, so errors, omissions and outdated information are possible. Always have the results reviewed by a specialist (a lawyer or data protection officer) before relying on them. Provided as is, without warranty; the authors accept no liability for consequences of its use (see also section 5 of the [license](LICENSE)).
 
 **License:** [CC BY 4.0](LICENSE). Attribution: *AI-compliance-rapport, Mike Rijkers*.

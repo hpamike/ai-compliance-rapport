@@ -64,7 +64,7 @@ Schrijf het rapport volgens `assets/rapport-template.md` en zet het om naar Word
 python <skill-map>/scripts/build_docx.py rapport.md rapport.docx
 ```
 
-Werkt python-docx niet (`pip install python-docx`), gebruik dan de docx-vaardigheid van de omgeving, of lever het Markdown-bestand en zeg dat erbij. Lever het .docx-bestand aan de gebruiker en geef in de chat een samenvatting van 5–8 regels: classificatie, rol, advies, de drie belangrijkste acties.
+Werkt python-docx niet (`pip install python-docx`), gebruik dan de docx-vaardigheid van de omgeving, of lever het Markdown-bestand en zeg dat erbij. Lever het .docx-bestand aan de gebruiker en geef in de chat een samenvatting van 5–8 regels: classificatie, rol, advies, de drie belangrijkste acties. Sluit af met de disclaimer in één zin: geen juridisch advies maar een hulpmiddel, fouten zijn mogelijk, laat het controleren door een specialist.
 
 ## Regels voor het oordeel
 
@@ -80,7 +80,7 @@ Werkt python-docx niet (`pip install python-docx`), gebruik dan de docx-vaardigh
   - de maatregelentabel bevat maximaal acht regels: voeg samenhangende plichten samen;
   - noem alleen wetgeving die echt speelt, met één zin waarom; laat de rest weg;
   - details, onderbouwing per onderdeel en het volledige feitenoverzicht gaan naar de bijlagen.
-- **Disclaimer.** Het rapport is een eerste screening, geen juridisch advies. Laat de disclaimer in het rapport staan; deze skill wordt gedeeld met derden die erop kunnen gaan vertrouwen.
+- **Disclaimer, op drie plekken.** Deze skill wordt gedeeld met derden die erop kunnen gaan vertrouwen, en een AI kan zich vergissen. Zeg daarom steeds duidelijk: dit is geen juridisch advies maar een hulpmiddel om zelf een afweging te maken; fouten zijn mogelijk; laat het altijd controleren door een specialist (jurist, FG). Dat staat (1) in het kader bovenaan het rapport, (2) in de slotzin van de hoofdtekst, en (3) in je chatbericht bij het opleveren. Neem de tekst uit het template over en zwak hem niet af, ook niet als de conclusie eenvoudig lijkt.
 - **Eigen woorden.** Schrijf uitleg in eigen woorden op basis van de wettekst en openbare bronnen. Neem geen tekst over uit cursusmateriaal of documenten van derden die de gebruiker deelt, behalve korte citaten met bron.
 
 ## Voorbeeld van de toon
